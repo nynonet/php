@@ -9,10 +9,10 @@
 
 class DadosDB{
 
-    private $Host = "localhost";
-    private $Usuario = "root";
-    private $Senha = "";
-    private $Database = "demo_php_json";
+    private $Host = "mysql.hostinger.com.br";
+    private $Usuario = "u917124926_json";
+    private $Senha = "android";
+    private $Database = "u917124926_json";
     private $ConDB = "";
 	
 	public $lista = array();

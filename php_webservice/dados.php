@@ -10,7 +10,7 @@ if (!isset($_GET["tabela"])) {
 if (!isset($_GET["filtro"])) {
     $whe = "";
 }else{
-    $whe = $_GET['filtro'];
+    $whe = " where id_fab = ".$_GET['filtro'];
 }
 
 
