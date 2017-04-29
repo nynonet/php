@@ -10,9 +10,9 @@
 class DadosDB{
 
     private $Host = "mysql.hostinger.com.br";
-    private $Usuario = "u917124926_json";
+    private $Usuario = "usuario";
     private $Senha = "android";
-    private $Database = "u917124926_json";
+    private $Database = "database";
     private $ConDB = "";
 	
 	public $lista = array();
@@ -30,6 +30,7 @@ class DadosDB{
         }
 		mysqli_close($this->ConDB);      
     }
+
 
 }
 
