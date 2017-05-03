@@ -27,6 +27,7 @@ class DadosDB{
 			
         while ( $resultado = mysqli_fetch_array( $query, MYSQL_ASSOC ) ) {
                $this->lista[] = $resultado;
+
         }
 		mysqli_close($this->ConDB);      
     }
