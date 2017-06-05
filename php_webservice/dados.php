@@ -13,7 +13,6 @@ if (!isset($_GET["filtro"])) {
     $whe = " where id_fab = ".$_GET['filtro'];
 }
 
-
 if ($tab=="0") {
     $retorno = json_encode( array( 	"Status" => -1,
 									"Mensagem" => "Sistema sem parâmetros") );
